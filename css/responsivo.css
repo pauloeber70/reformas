@@ -1,0 +1,46 @@
+@media screen and (max-width:956px) {
+
+.navbar{
+    position: relative;
+}
+
+.menu{
+    display: none;
+}
+
+.logo{
+    margin: 0;
+    text-align: center;
+}
+.header{
+    padding-top: 5px;
+}
+
+.header p{
+    text-align: center;
+    margin-top: 2px;
+}
+
+/*h1 h2*/
+.headline{
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+}
+.headline p{
+    text-align: center;
+}
+
+#botao{
+    display: none;
+}
+
+.whats{
+    display: none;
+}
+
+.fone{
+    font-size: 15px;
+}
+
+}

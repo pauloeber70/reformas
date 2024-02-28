@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 170px;
+    /*border: 1px solid red;*/
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 10%;
+    margin-left: 5%;
+    /*border: 1px solid violet;*/
+    text-align: left;
+   
+}
+
+.whats{
+    flex: 5%;
+    /*border: 1px solid black;*/
+    margin-left: -5%;
+    text-align: center;
+        
+}
+
+
+.fone{
+    flex: 10%;
+    text-align: center;
+    color: #113f4b;
+    font-size: 18px;
+    margin-left: -6%;
+    
+}
+
+
+.fone:hover{
+    color:white;
+    border-top: 2px solid  #22ad0c; 
+    border-bottom: 2px solid  #22ad0c;
+    border-left: 2px solid  #22ad0c;
+    border-right: 2px solid  #22ad0c;
+    border-radius: 5px;
+    background-color:#f80e23;
+               
+}
+
+
+
+.card:hover .fone{
+    display: none;
+}
+
+.card:hover .clique{
+    display: block;
+}
+
+
+.clique{
+    display: none;
+}
+
+
+    
+/*botao*/
+.menu{
+    flex: 10%;
+    text-align: right;
+    padding: 20px;
+    margin-right: 5%;
+    /*border: 1px solid green;*/
+       
+}
+
+
+    /*fale conosco*/
+#botao{
+    background-color:#f80e23;
+    padding: 20px 30px; 
+    color: white;
+    border-radius: 5px;
+    border-right: 100%;
+    margin-top: 0%;
+    text-decoration: none;
+    font-size: 22px;
+    
+                
+}
+
+.enviar{
+    text-decoration: none;
+    border: 2px solid #22ad0c;        border-radius: 5px;
+    margin-left: 2%;
+    background-color: #f80e23;        color: white;
+
+}
+
+.enviar:hover{
+    border: none;
+    background-color:#22ad0c;
+}    
+
+.label{
+    /*border: 1px solid #22ad0c;*/        border-radius: 3px;
+    padding: 3px;
+    background-color: #f80e23;        color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 2%;
+
+}
+
+.label:hover{
+    border: none;
+    background-color:#22ad0c;
+
+}    
+
+.mensagem{
+    margin-left: 2%;
+    border: 2px solid #22ad0c;
+    border-radius: 4px;
+    color:  black;
+    font-weight: bolder;
+       
+}
+    
+.dados{
+    border: 2px solid #22ad0c;
+    border-radius: 3px;
+    padding:4px 10px;
+    cursor: pointer;
+
+} 
+
+.faleConosco{    
+    border:1px solid #455d69;
+    padding:20px;
+    margin-right: 5%;
+    text-decoration: none;
+    margin-top: -5%;
+
+}    
+
+#botao:hover{
+    background-color:#22ad0c;
+    border-top: 2px solid  #f80e23;
+    border-bottom: 2px solid  #f80e23;
+    border-left: 2px solid  #f80e23;
+    border-right: 2px solid  #f80e23;
+    border-radius: 5px;
+
+}
+
+.html{
+   height: 100%;
+   width: 100%;    
+   background-image: url(/img/parede.png);
+   background-size: cover;   
+   background-position:center;
+   margin-top: 0%;
+   
+}    
+
+.html .faleConosco{
+    background-color: #22ad0c;
+    padding: 20px;
+    margin-top: 0%;
+    width: 100%;
+}
+
+/*h1 h2*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 150px;
+    /*border: 1px solid red;*/
+    margin-left: -5%;
+}
+
+/*texto*/
+.headline{
+    margin-right: 10%;
+    margin-left: 10%;
+    flex: 40%;
+    /*border: 1px solid black;*/
+   
+    padding: 10px 10px;
+     
+}
+
+
+
+
+
